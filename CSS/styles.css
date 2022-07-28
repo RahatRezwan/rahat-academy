@@ -11,6 +11,13 @@ body {
     right: 25%;
 }
 
+/* ---------------------
+     About Section 
+----------------------*/
+.about-card {
+    background-color: #f4fafd;
+}
+
 /* ------------------------------
      Slider Section Media Query 
 --------------------------------*/
