@@ -225,7 +225,7 @@
             </section>
         </header>
 
-        <main>
+        <main class="container-xl">
             <!-- Course Section -->
             <section id="courses" class="container-xl py-5 my-5">
                 <div class="heading text-center mx-auto w-75 mb-5">
@@ -411,6 +411,103 @@
                                     </div>
                                 </div>
                                 <button class="btn btn-primary px-4 py-2">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Register Section -->
+            <section class="py-5 my-5">
+                <div
+                    class="register-now d-flex justify-content-around align-items-center rounded p-5"
+                >
+                    <div class="col-12 col-md-4 p-3">
+                        <h1 class="fw-bolder">Ready To Join?</h1>
+                        <p>
+                            Join with us. Enjoy a lot of course at a very low price. Buy course and
+                            buildup your career.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-8 text-end p-3">
+                        <button
+                            class="btn btn-light px-4 py-3 text-primary fw-bold"
+                            data-bs-toggle="modal"
+                            data-bs-target="#signupform"
+                        >
+                            Register Now
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="modal fade"
+                    id="signupform"
+                    tabindex="-1"
+                    aria-labelledby="signupformLabel"
+                    aria-hidden="true"
+                >
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5
+                                    class="modal-title fs-3 text-center fw-bold"
+                                    id="signupformLabel"
+                                >
+                                    Sign Up
+                                </h5>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="d-flex flex-column" action="">
+                                    <p>
+                                        Name:
+                                        <input type="text" placeholder="Enter your Name" required />
+                                    </p>
+
+                                    <p>
+                                        Email:
+                                        <input
+                                            type="email"
+                                            placeholder="Enter Your Email"
+                                            required
+                                        />
+                                    </p>
+
+                                    <p>
+                                        Password:
+                                        <input
+                                            type="password"
+                                            placeholder="Enter your password"
+                                            required
+                                        />
+                                    </p>
+
+                                    <p>
+                                        Re-type Password:
+                                        <input
+                                            type="password"
+                                            placeholder="Re-type your password"
+                                            required
+                                        />
+                                    </p>
+                                    <input class="" type="button" value="Sign Up" />
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    data-bs-dismiss="modal"
+                                >
+                                    Close
+                                </button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>

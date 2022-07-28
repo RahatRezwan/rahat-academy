@@ -18,6 +18,13 @@ body {
     background-color: #f4fafd;
 }
 
+/* ---------------------
+     Register Section 
+----------------------*/
+.register-now {
+    color: white;
+    background-color: #289bde;
+}
 /* ------------------------------
      Slider Section Media Query 
 --------------------------------*/
