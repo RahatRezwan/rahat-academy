@@ -37,7 +37,13 @@
 
                         <div class="d-flex">
                             <div class="d-none d-sm-block d-lg-none">
-                                <button class="btn btn-outline-primary me-2 px-5">Sign Up</button>
+                                <button
+                                    class="btn btn-outline-primary me-2 px-5"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#signupform"
+                                >
+                                    Sign Up
+                                </button>
                             </div>
                             <button
                                 class="navbar-toggler"
@@ -105,17 +111,16 @@
                                         </button>
                                     </form>
                                 </li>
-                                <li class="nav-item">
-                                    <div class="d-block d-sm-none mt-3">
-                                        <button class="btn btn-outline-primary px-5">
-                                            Sign Up
-                                        </button>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                         <div class="d-none d-lg-block">
-                            <button class="btn btn-outline-primary px-5">Sign Up</button>
+                            <button
+                                class="btn btn-outline-primary px-5"
+                                data-bs-toggle="modal"
+                                data-bs-target="#signupform"
+                            >
+                                Sign Up
+                            </button>
                         </div>
                     </div>
                 </nav>
@@ -161,6 +166,8 @@
                                     </p>
                                     <button
                                         class="btn btn-primary px-2 py-1 fw-semibold px-md-4 py-md-2"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#signupform"
                                     >
                                         Get Started
                                     </button>
@@ -179,6 +186,8 @@
                                     </p>
                                     <button
                                         class="btn btn-primary px-2 py-1 fw-semibold px-md-4 py-md-2"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#signupform"
                                     >
                                         Get Started
                                     </button>
@@ -196,6 +205,8 @@
                                     </p>
                                     <button
                                         class="btn btn-primary px-2 py-1 fw-semibold px-md-4 py-md-2"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#signupform"
                                     >
                                         Get Started
                                     </button>
@@ -419,19 +430,17 @@
 
             <!-- Register Section -->
             <section class="py-5 my-5">
-                <div
-                    class="register-now d-flex justify-content-around align-items-center rounded p-5"
-                >
-                    <div class="col-12 col-md-4 p-3">
+                <div class="register-now bg-primary text-white row rounded align-items-center p-5">
+                    <div class="col-12 col-lg-4 text-center text-lg-start p-3">
                         <h1 class="fw-bolder">Ready To Join?</h1>
                         <p>
                             Join with us. Enjoy a lot of course at a very low price. Buy course and
                             buildup your career.
                         </p>
                     </div>
-                    <div class="col-12 col-md-8 text-end p-3">
+                    <div class="col-12 col-lg-8 text-center text-lg-end p-3">
                         <button
-                            class="btn btn-light px-4 py-3 text-primary fw-bold"
+                            class="btn btn-light px-4 py-2 text-primary fw-bold"
                             data-bs-toggle="modal"
                             data-bs-target="#signupform"
                         >
@@ -449,11 +458,8 @@
                 >
                     <div class="modal-dialog">
                         <div class="modal-content">
-                            <div class="modal-header">
-                                <h5
-                                    class="modal-title fs-3 text-center fw-bold"
-                                    id="signupformLabel"
-                                >
+                            <div class="modal-header text-center">
+                                <h5 class="modal-title fs-3 fw-bold" id="signupformLabel">
                                     Sign Up
                                 </h5>
                                 <button
@@ -464,50 +470,35 @@
                                 ></button>
                             </div>
                             <div class="modal-body">
-                                <form class="d-flex flex-column" action="">
-                                    <p>
-                                        Name:
-                                        <input type="text" placeholder="Enter your Name" required />
-                                    </p>
-
-                                    <p>
-                                        Email:
-                                        <input
-                                            type="email"
-                                            placeholder="Enter Your Email"
-                                            required
-                                        />
-                                    </p>
-
-                                    <p>
-                                        Password:
-                                        <input
-                                            type="password"
-                                            placeholder="Enter your password"
-                                            required
-                                        />
-                                    </p>
-
-                                    <p>
-                                        Re-type Password:
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="Name" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="Name" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="Email" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="Password" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="re-Password" class="form-label"
+                                            >Re-type Password</label
+                                        >
                                         <input
                                             type="password"
-                                            placeholder="Re-type your password"
-                                            required
+                                            class="form-control"
+                                            id="re-Password"
                                         />
-                                    </p>
-                                    <input class="" type="button" value="Sign Up" />
+                                    </div>
+                                    <div class="mb-3 text-center">
+                                        <button type="submit" class="btn btn-primary py-2 px-4">
+                                            Sign Up
+                                        </button>
+                                    </div>
                                 </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button
-                                    type="button"
-                                    class="btn btn-secondary"
-                                    data-bs-dismiss="modal"
-                                >
-                                    Close
-                                </button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>
