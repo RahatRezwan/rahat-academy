@@ -1,0 +1,73 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* ---------------------
+     Slider Section 
+----------------------*/
+.slide-caption {
+    top: 250px;
+    left: 25%;
+    right: 25%;
+}
+
+/* ------------------------------
+     Slider Section Media Query 
+--------------------------------*/
+@media screen and (min-width: 300px) and (max-width: 575px) {
+    .slide-caption {
+        top: 35px;
+        left: 2%;
+        right: 2%;
+    }
+    .slide-caption h1 {
+        font-size: 20px !important;
+    }
+    .slide-caption p {
+        font-size: 12px !important;
+    }
+    .slide-caption button {
+        font-size: 16px !important;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .slide-caption {
+        top: 85px;
+        left: 5%;
+        right: 5%;
+    }
+    .slide-caption h1 {
+        font-size: 24px !important;
+    }
+    .slide-caption p {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .slide-caption {
+        top: 120px;
+        left: 5%;
+        right: 5%;
+    }
+    .slide-caption h1 {
+        font-size: 40px !important;
+    }
+    .slide-caption p {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1249px) {
+    .slide-caption {
+        top: 170px;
+        left: 10%;
+        right: 10%;
+    }
+    .slide-caption h1 {
+        font-size: 40px !important;
+    }
+    .slide-caption p {
+        font-size: 16px !important;
+    }
+}

@@ -16,14 +16,25 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="CSS/styles.css" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header>
             <!-- Navbar Section -->
-            <section class="">
+            <section id="navbar">
                 <nav class="navbar navbar-expand-lg bg-light ps-xl-5 pe-xl-5">
                     <div class="container-xl">
-                        <a class="navbar-brand" href="#">rahat academy</a>
+                        <a class="navbar-brand fw-bold" href="#"
+                            >rahat<span class="text-primary">academy</span></a
+                        >
+
                         <div class="d-flex">
                             <div class="d-none d-sm-block d-lg-none">
                                 <button class="btn btn-outline-primary me-2 px-5">Sign Up</button>
@@ -108,6 +119,80 @@
                         </div>
                     </div>
                 </nav>
+            </section>
+
+            <!-- Slider Section -->
+            <section>
+                <div class="container-fluid p-0">
+                    <div id="rahatacademyslider" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators d-none d-md-block text-center">
+                            <button
+                                type="button"
+                                data-bs-target="#rahatacademyslider"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#rahatacademyslider"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#rahatacademyslider"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item slide-items active text-center">
+                                <img src="images/cover/cover-1.png" class="d-block w-100" alt="" />
+                                <div class="slide-caption carousel-caption">
+                                    <h1 class="caption-title fs-1 fw-bold text-uppercase mb-3">
+                                        Get Started Dgital Learning
+                                    </h1>
+                                    <p class="caption-description fs-6 mb-3">
+                                        E learning is now become very popular. People from all over
+                                        the world can perticipate in any course through e-learning
+                                        platform.
+                                    </p>
+                                    <button
+                                        class="btn btn-primary px-2 py-1 fw-semibold px-md-4 py-md-2"
+                                    >
+                                        Get Started
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="carousel-item slide-items">
+                                <img src="images/cover/cover-2.png" class="d-block w-100" alt="" />
+                            </div>
+                            <div class="carousel-item slide-items">
+                                <img src="images/cover/cover-4.png" class="d-block w-100" alt="" />
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev d-none d-xl-block"
+                            type="button"
+                            data-bs-target="#rahatacademyslider"
+                            data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next d-none d-xl-block"
+                            type="button"
+                            data-bs-target="#rahatacademyslider"
+                            data-bs-slide="next"
+                        >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
             </section>
         </header>
 
