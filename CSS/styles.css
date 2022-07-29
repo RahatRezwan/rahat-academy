@@ -57,6 +57,13 @@ body {
     .register-now p {
         font-size: 14px;
     }
+    /* Students section */
+    #students .heading h1 {
+        font-size: 18px;
+    }
+    #students .heading p {
+        font-size: 14px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .slide-caption {
@@ -89,6 +96,13 @@ body {
         font-size: 18px;
     }
     .register-now p {
+        font-size: 14px;
+    }
+    /* Students section */
+    #students .heading h1 {
+        font-size: 18px;
+    }
+    #students .heading p {
         font-size: 14px;
     }
 }
@@ -128,6 +142,13 @@ body {
     .register-now p {
         font-size: 16px;
     }
+    /* Students section */
+    #students .heading h1 {
+        font-size: 30px;
+    }
+    #students .heading p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1249px) {
@@ -162,6 +183,13 @@ body {
         font-size: 35px;
     }
     .register-now p {
+        font-size: 16px;
+    }
+    /* Students section */
+    #students .heading h1 {
+        font-size: 35px;
+    }
+    #students .heading p {
         font-size: 16px;
     }
 }
