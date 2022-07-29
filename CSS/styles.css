@@ -19,7 +19,7 @@ body {
 }
 
 /* ------------------------------
-     Slider Section Media Query 
+          Media Query 
 --------------------------------*/
 @media screen and (min-width: 300px) and (max-width: 575px) {
     .slide-caption {
@@ -36,32 +36,11 @@ body {
     .slide-caption button {
         font-size: 16px !important;
     }
-    /* Course section */
-    #courses .heading h1 {
+    /* All section */
+    .heading {
         font-size: 18px;
     }
-    #courses .heading p {
-        font-size: 14px;
-    }
-    /* About Section */
-    .about-description h5 {
-        font-size: 18px;
-    }
-    .about-description p {
-        font-size: 14px;
-    }
-    /* Register Section */
-    .register-now h1 {
-        font-size: 18px;
-    }
-    .register-now p {
-        font-size: 14px;
-    }
-    /* Students section */
-    #students .heading h1 {
-        font-size: 18px;
-    }
-    #students .heading p {
+    .para {
         font-size: 14px;
     }
 }
@@ -77,32 +56,11 @@ body {
     .slide-caption p {
         font-size: 14px !important;
     }
-    /* Course section */
-    #courses .heading h1 {
+    /* All section */
+    .heading {
         font-size: 18px;
     }
-    #courses .heading p {
-        font-size: 14px;
-    }
-    /* About Section */
-    .about-description h5 {
-        font-size: 18px;
-    }
-    .about-description p {
-        font-size: 14px;
-    }
-    /* Register Section */
-    .register-now h1 {
-        font-size: 18px;
-    }
-    .register-now p {
-        font-size: 14px;
-    }
-    /* Students section */
-    #students .heading h1 {
-        font-size: 18px;
-    }
-    #students .heading p {
+    .para {
         font-size: 14px;
     }
 }
@@ -119,34 +77,11 @@ body {
     .slide-caption p {
         font-size: 16px !important;
     }
-
-    /* Course section */
-    #courses .heading h1 {
+    /* All section */
+    .heading {
         font-size: 30px;
     }
-    #courses .heading p {
-        font-size: 16px;
-    }
-
-    /* About Section */
-    .about-description h5 {
-        font-size: 30px;
-    }
-    .about-description p {
-        font-size: 16px;
-    }
-    /* Register Section */
-    .register-now h1 {
-        font-size: 30px;
-    }
-    .register-now p {
-        font-size: 16px;
-    }
-    /* Students section */
-    #students .heading h1 {
-        font-size: 30px;
-    }
-    #students .heading p {
+    .para {
         font-size: 16px;
     }
 }
@@ -163,33 +98,11 @@ body {
     .slide-caption p {
         font-size: 16px !important;
     }
-    /* Course section */
-    #courses .heading h1 {
+    /* All section */
+    .heading {
         font-size: 35px;
     }
-    #courses .heading p {
-        font-size: 16px;
-    }
-
-    /* About Section */
-    .about-description h5 {
-        font-size: 35px;
-    }
-    .about-description p {
-        font-size: 16px;
-    }
-    /* Register Section */
-    .register-now h1 {
-        font-size: 35px;
-    }
-    .register-now p {
-        font-size: 16px;
-    }
-    /* Students section */
-    #students .heading h1 {
-        font-size: 35px;
-    }
-    #students .heading p {
+    .para {
         font-size: 16px;
     }
 }
